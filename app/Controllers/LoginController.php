@@ -48,4 +48,9 @@ class LoginController extends BaseController
         $data['idUsuario'] = 0;
         return view('Login/RegistroView',$data);
     }
+    public function hola()
+    {
+        $data['idUsuario'] = 0;
+        return view('Login/RegistroView',$data);
+    }
 }
