@@ -23,3 +23,9 @@ $routes->get('Modulos/Modulo_2','Modulo2Controller::index');
 $routes->get('Modulos/Modulo_3','Modulo3Controller::index');
 $routes->get('Modulos/Modulo_4','Modulo4Controller::index');
 $routes->get('Modulos/Modulo_5','Modulo5Controller::index');
+
+//rutas de registro de nuevos usuarios
+$routes->get('Usuario/Nuevo', 'NuevoUsuarioController::GetFormularioRegistraUsuario');
+$routes->post('Usuario/NuevoRegistrarActualizar', 'NuevoUsuarioController::RegistrarActualizarUsuario');
+$routes->get('Usuario/VerUsuarios', 'NuevoUsuarioController::VerUsuarios');
+$routes->get('Usuario/GetUsuarios', 'NuevoUsuarioController::GetUsuarios');

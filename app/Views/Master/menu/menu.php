@@ -10,8 +10,11 @@
                 <li class="nav-item">
                     <a class="nav-link subnav-link" href="<?= base_url() . '' ?>">Inicio</a>
                 </li>
-                <li class="nav-item">
+                <!--<li class="nav-item">
                     <a class="nav-link subnav-link" href="<?= base_url() . 'Prueba/VerUsuarios' ?>">Ver usuarios</a>
+                </li>-->
+                <li class="nav-item">
+                    <a class="nav-link subnav-link" href=" <?= base_url() . 'Usuario/VerUsuarios' ?>"> Ver usuarios</a>
                 </li>
                 <?php if ($idRolUsr >= 4) { ?>
                     <li class="nav-item">
