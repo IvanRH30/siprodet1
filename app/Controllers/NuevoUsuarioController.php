@@ -169,13 +169,14 @@ class NuevoUsuarioController extends BaseController{
 
     public function GetUsuarios(){
         $getUsuarios = $this->miNuevoUsuarioService->GetUsuarios();
-        if ($getUsuarios['estatus'] === true) {
+        if ($getUsuarios['estatus'] == "t") {
             $usuarios = $getUsuarios['usuarios'];
             foreach ($usuarios as $usuario) {
                 $btnEditar = '<button class="btn btn-secondary btn active"  onclick="editarUsuario('. $usuario->id .')" type="button"> Editar </button>';
-                
-                $btnEliminar = '<button class="btn btn-primary btn active" onclick="deshabilitarUsuario('. $usuario->id .')"  type="button">Desabilitado</button>';
+                $texto = ($usuario->estatus == "t")? 'Deshabilitar' : 'Habilitar';
+                $btnEliminar = '<button class="btn btn-primary btn active" onclick="deshabilitarUsuario('. $usuario->id .')"  type="button">'.$texto.'</button>';
                 $usuario->acciones = $btnEditar . ' ' . $btnEliminar;
+                $usuario->estatus = ($usuario->estatus =="f")? 'Deshabilitado' : 'Habilitado';
                 
             }
             $resultado = $getUsuarios;
@@ -183,8 +184,17 @@ class NuevoUsuarioController extends BaseController{
             $resultado = $getUsuarios;
         }
         
-        echo json_encode($resultado);
+        return  json_encode($resultado);
         
     }
+
+    public function DesabilitarHabilitarUsuarioById($idUsuario){
+        $resultado = $this->miNuevoUsuarioService->DeshabilitarHabilitarUsuario($idUsuario);
+        return json_encode($resultado);
+    }
     
+    public function GetUsuarioByID($idUsuario){
+        $resultado = $this->miNuevoUsuarioService->GetUsuarioByID($idUsuario);
+        return json_encode($resultado);
+    }
 }

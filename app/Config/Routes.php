@@ -29,3 +29,5 @@ $routes->get('Usuario/Nuevo', 'NuevoUsuarioController::GetFormularioRegistraUsua
 $routes->post('Usuario/NuevoRegistrarActualizar', 'NuevoUsuarioController::RegistrarActualizarUsuario');
 $routes->get('Usuario/VerUsuarios', 'NuevoUsuarioController::VerUsuarios');
 $routes->get('Usuario/GetUsuarios', 'NuevoUsuarioController::GetUsuarios');
+$routes->get('Usuario/DeshabilitarHabilitar/(:num)', 'NuevoUsuarioController::DesabilitarHabilitarUsuarioById/$1');
+$routes->get('Usuario/GetUsuarioByID/(:num)', 'NuevoUsuarioController::GetUsuarioByID/$1');

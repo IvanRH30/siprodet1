@@ -107,4 +107,46 @@ class NuevoUsuarioService{
         }
         return $resultado;
     }
+
+    public function DeshabilitarHabilitarUsuario($idUsuario)
+    {
+        try {
+            $usuario = $this->miNuevoUsuarioModel->find($idUsuario);
+            $usuario->estatus = ($usuario->estatus == "t") ? false : true;
+            $this->miNuevoUsuarioModel->update($idUsuario,$usuario);
+            $texto = ($usuario->estatus == "t") ? 'Deshabilitado' : 'Habilitado';
+            $resultado['title'] = 'Éxito';
+            $resultado['text'] = 'Se ha '.$texto.' al usuario correctamente';
+            $resultado['icon'] = 'success';
+            $resultado['estatus'] = true;
+        } catch (\Exception $th) {
+            $resultado['title'] = 'Error';
+            $resultado['text'] = 'No se ha '.$texto.'  al usuario ';
+            $resultado['icon'] = 'error';
+            $resultado['estatus'] = false;
+        }
+        return $resultado;
+    }
+
+    public function GetUsuarioByID($idUsuario){
+        $resultado['title'] = 'Error';
+        $resultado['estatus'] = false;
+        $resultado['icon'] = 'error';
+        try {
+            $usuario = $this->miNuevoUsuarioModel->find($idUsuario);
+            if ($usuario != null) {
+                $resultado['title'] = 'Éxito';
+                $resultado['text'] = 'Se ha encontrado a el usuario correctamente';
+                $resultado['icon'] = 'success';
+                $resultado['estatus'] = true;
+                $resultado['usuario'] = $usuario;
+            }else{
+                $resultado['text'] = 'No se ha encontrado a el usuario';
+            }
+        } catch (\Exception $th) {
+            $resultado['text'] = 'Error:  ' . $th->getMessage();
+            $resultado['icon'] = 'warning';
+        }
+        return $resultado;
+    }
 }
