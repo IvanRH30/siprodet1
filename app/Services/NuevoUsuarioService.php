@@ -93,13 +93,13 @@ class NuevoUsuarioService{
     public function GetUsuarios(){
         try{
             $usuarios = $this->miNuevoUsuarioModel->findAll();
-            $resultado['tile'] = 'Éxito';
+            $resultado['title'] = 'Éxito';
             $resultado['text'] =  'Se han encontrado usuarios';
             $resultado['icon'] = 'success';
             $resultado['estatus'] = true;
             $resultado['usuarios'] =$usuarios;
         }catch(\Exception $th){
-            $resultado['tile'] = 'Error';
+            $resultado['title'] = 'Error';
             $resultado['text'] = 'No se han encontrado usuarios ';
             $resultado['icon'] = 'error';
             $resultado['estatus'] = false;

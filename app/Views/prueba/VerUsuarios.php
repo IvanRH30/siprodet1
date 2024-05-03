@@ -30,12 +30,12 @@
             </tbody>
         </table>
     </div>
-</div>            
+</div>
 
 
 <!-- MODAL PARA INSERTAR ACTUALIZAR USUARIO -->
 <div id="modalFormularioUsuario" class="modal" tabindex="1">
-    <div class="modal-dialog modal-lg"> 
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title"><span id="textoAccionModalUsuario"></span> Usuario</h4>
@@ -78,3 +78,5 @@
 <?= $this->endSection(); ?>
 <?= $this->section('FooterContent'); ?>
 <?= $this->endSection(); ?>
+
+<!-- Modal -->

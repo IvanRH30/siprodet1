@@ -154,7 +154,7 @@ function SetUsuarios(){
 
 function editarUsuario(idUsuario){
     $('#textoAccionModalUsuario').text('Actualizar');
-    $('#btnAccionModalUsuario').text('Actualizar');
+    $('#btnAccionModalUsuario').text('Actualizar');//boton de actualizar, de ver usuario modal
     limpiarFormulario();
     $('#idNuevo').val(idUsuario);
     $.ajax({
@@ -220,4 +220,12 @@ function cierraModal(nombreModal){
     nombreModal = '#'+nombreModal;
     $(nombreModal).hide();
 
+}
+
+function RegistrarUsuario(){
+    limpiarFormulario();
+    $('#idNuevo').val(0);
+    $('#textoAccionModalUsuario').text('Agregar');
+    $('#btnAccionModalUsuario').text('Agregar');
+    $('#modalFormularioUsuario').show();
 }

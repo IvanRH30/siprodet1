@@ -10,7 +10,8 @@ $routes->get('Salir', 'LoginController::logout');
 $routes->get('RegistrarUsuario', 'LoginController::registrarUsuario');
 $routes->post('AuntetificaUsuario', 'LoginController::autentificacion');
 
-$routes->get('Inicio', 'Home::index');
+//$routes->get('Inicio', 'Home::index');
+$routes->get('Inicio', 'NuevoUsuarioController::GetFormularioRegistraUsuario');
 
 $routes->post('Prueba/RegistrarActualizarUsuario','PruebaController::AgregarActualizarUsuario');
 $routes->get('Prueba/VerUsuarios','PruebaController::VerUsuarios');
