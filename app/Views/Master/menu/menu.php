@@ -14,7 +14,19 @@
                     <a class="nav-link subnav-link" href="<?= base_url() . 'Prueba/VerUsuarios' ?>">Ver usuarios</a>
                 </li>-->
                 <li class="nav-item">
-                    <a class="nav-link subnav-link" href=" <?= base_url() . 'Usuario/VerUsuarios' ?>"> Ver usuarios</a>
+                    <a class="nav-link subnav-link" href=" <?= base_url() . 'Usuario/VerUsuarios' ?>"> Ver Facultados</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link subnav-link" href=" <?= base_url() . 'Areas/VerAreas' ?>"> Ver Areas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link subnav-link" href=" <?= base_url() . 'Perfiles/VerPerfiles' ?>">Ver Perfiles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link subnav-link" href=" <?= base_url() . 'Procuradurias/VerProcuradurias' ?>">Ver Procuradurias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link subnav-link" href=" <?= base_url() . 'TipoFacultados/VerTipoFacultados' ?>">Ver TipoFacultados</a>
                 </li>
                 <?php if ($idRolUsr >= 4) { ?>
                     <li class="nav-item">

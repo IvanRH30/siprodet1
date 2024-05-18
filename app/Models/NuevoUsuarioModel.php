@@ -9,17 +9,17 @@ class NuevoUsuarioModel extends Model{
     protected $allowedFields = 
     [
         'strFacultadoId',
-        'numProcuraduriaID',
+        'numProcuraduriaID',//CAMPO QUE TIENE RELACION CON LA TABLA PROCURAdurias
         'strNombre',
         'strAPaterno',
         'strAMaterno',
         'strPassword',
         'estatus',
-        'numPerfilId',
-        'strAreaId',
+        'numPerfilId',//campo que tienen relacion con la tabla perfiles
+        'strAreaId', //camo que tiene relacion con la tabla de areas
         'strIniciales',
         'strTitulo',
-        'numTipoFacultadoId',
+        'numTipoFacultadoId',//campo que tiene relacion con la tabla tipo facultado
         'dtmFechaAlta',
         'dtmFechaCambio',
         'dtmFechaBaja',

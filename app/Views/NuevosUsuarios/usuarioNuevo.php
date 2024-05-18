@@ -11,9 +11,9 @@
 <div class="container containerGenereal"><br>
     <form id="usuarioNuevoFormulario" role="form p2" method="POST" enctype="multipart/form-data">
         <br><h2>Resgistro de Usuario</h2>
-        <input class="form-control" name="idNuevo" id="idNuevo" placeholder=" " type="text">
+        <input hidden class="form-control" name="idNuevo" id="idNuevo" placeholder=" " type="text" value="0">
         <div class="form-group">
-            <label class="control-label" for="strFacultado">strFacultado: </label>
+            <label class="control-label" for="strFacultado">Facultado: </label>
             <input class="form-control" name="strFacultado" id="strFacultado" placeholder=" " type="text">
         </div>
         <div class="form-group">

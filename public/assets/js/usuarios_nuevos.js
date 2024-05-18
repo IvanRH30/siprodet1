@@ -30,17 +30,17 @@ $(document).ready(function (){
         data: [],
         columns:[
             {data: "strFacultadoId", className: "text-center", width: "10%"},
-            {data: "numProcuraduriaID", className: "text-center", width: "12%" },
+            {data: "procuraduriaNombre", className: "text-center", width: "12%" },
             {data: "strNombre", className: "text-center", width: "12%" },
             {data: "strAPaterno", className: "text-center", width: "12%" },
             {data: "strAMaterno", className: "text-center", width: "12%" },
             //{data: "strPassword", className: "text-center", width: "10%" },
             {data: "estatus", className: "text-center", width: "12%" },
-            {data: "numPerfilId", className: "text-center", width: "12%" },
-            {data: "strAreaId", className: "text-center", width: "12%" },
+            {data: "perfilnombre", className: "text-center", width: "12%" },
+            {data: "areanombre", className: "text-center", width: "12%" },
             {data: "strIniciales", className: "text-center", width: "12%" },
             {data: "strTitulo", className: "text-center", width: "12%" },
-            {data: "numTipoFacultadoId", className: "text-center", width: "12%" },
+            {data: "tipoFacultado", className: "text-center", width: "12%" },
             {data: "dtmFechaAlta", className: "text-center", width: "12%" },
             {data: "dtmFechaCambio", className: "text-center", width: "12%" },
             {data: "dtmFechaBaja", className: "text-center", width: "12%" },
@@ -85,12 +85,14 @@ function deshabilitarUsuario(idUsuario){
         },
         buttonsStyling: false
     });
+
+    
     swalWithBootstrapButtons.fire({
-        title: "Desea deshabilitar al usuario?",
+        title: "Desea habilitar al usuario?",
         text: "Estación es reversible!",
         icon: "warning",
         showCancelButton: true,
-        confirmButtonText: "Si deshabilitar!",
+        confirmButtonText: "Si habilitar!",
         cancelButtonText: "No, cancelar!",
         reverseButtons: true
     }).then((result) => {
@@ -100,7 +102,7 @@ function deshabilitarUsuario(idUsuario){
                 type: 'GET',
                 dataType: 'JSON', 
                 beforeSend: function (event) {
-                    $("body").dynamicSpinner({ loadingText: "Deshabilitando...", });
+                    $("body").dynamicSpinner({ loadingText: "Habilitando...", });
                 },
                 success: function (response) {
                     $("body").dynamicSpinnerDestroy({});
@@ -122,7 +124,7 @@ function deshabilitarUsuario(idUsuario){
         ) {
             swalWithBootstrapButtons.fire({
                 title: "Cancelado",
-                text: "El usuario sigue habilitado",
+                text: "El usuario sigue deshabilitado",
                 icon: "error"
             });
         }

@@ -97,7 +97,7 @@ class PruebaService
             $resultado['icon'] = 'error';
             $resultado['estatus'] = false;
         }
-        return $resultado;        
+        return $resultado;         
     }
     public function DeshabilitarHabilitarUsuario($idUsuario)
     {
