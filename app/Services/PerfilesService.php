@@ -22,12 +22,12 @@ class PerfilesService {
             $resultado['title'] = 'Exito';
             $resultado['text'] = 'Se ha '.$texto.' el perfil correctamente';
             $resultado['icon'] = 'success';
-            //$resultado['estatus'] = true;
+            $resultado['activo'] = true;
         }else{
             $resultado['title'] = 'Error';
             $resultado['text'] = 'No se ha '.$texto.' el perfil ';
             $resultado['icon'] = 'error';
-            //$resultado['estatus'] = false;
+            $resultado['activo'] = false;
         }
         return $resultado;
     }
@@ -36,6 +36,12 @@ class PerfilesService {
         try{
             $infoPerfiles = [
                 "nombre" => $datos->getVar('nombre_perfil'),
+                "num_nivel_seguridad" => $datos->getVar('nivel_seguridad'),
+                "activo" => true,
+                /*"facultado_modificacion" => $datos->getVar(''),
+                "fecha_alta" => $datos->getVar(''),
+                "feha_cambio" => $datos->getVar(''),
+                "fecha_baja" => $datos->getVar(''),*/
             ];
             $this->miPerfilModel->insert($infoPerfiles);
             return true;
@@ -49,6 +55,7 @@ class PerfilesService {
             $idPerfiles = $datos->getVar('idPerfiles');
             $infoPerfilActual = $this->miPerfilModel->find($idPerfiles);
             $infoPerfilActual->nombre = $datos->getVar('nombre_perfil');
+            $infoPerfilActual->num_nivel_seguridad = $datos->getVar('nivel_seguridad');
             $nuevaInfo = $infoPerfilActual;
             $this->miPerfilModel->update($idPerfiles, $nuevaInfo);
             return true;
@@ -63,27 +70,50 @@ class PerfilesService {
             $resultado['title'] = 'Éxito';
             $resultado['text'] =  'Se han encontrado perfiles';
             $resultado['icon'] = 'success';
-            
+            $resultado['activo'] = true;
             $resultado['perfiles'] =$perfiles;
         } catch(\Exception $th){
             $resultado['title'] = 'Error';
             $resultado['text'] = 'No se ha encontrado perfiles ';
             $resultado['icon'] = 'error';
+            $resultado['activo'] = false;
             
+        }
+        return $resultado;
+    }
+
+    public function DeshabilitarHabilitarPerfilById($idPerfiles){
+        try{
+            $perfil = $this->miPerfilModel->find($idPerfiles);
+            $perfil->activo = ($perfil->activo == "t") ? false : true;
+            $this->miPerfilModel->update( $idPerfiles, $perfil);
+            $texto = ($perfil->activo == "t")? 'Activa' : 'Inactiva';
+            $resultado['title'] = 'Éxito';
+            $resultado['text'] = 'Se ha ' . $texto . ' el perfil correctamente';
+            $resultado['icon'] = 'success';
+            $resultado['activo'] = true;
+
+        }catch(\Exception $th){
+            $resultado['title'] = 'Error';
+            $resultado['text'] = 'No se ha ' . $texto . '  el perfil ';
+            $resultado['icon'] = 'error';
+            $resultado['activo'] = false;
         }
         return $resultado;
     }
 
     public function GetPerfilByID($idPerfiles){
         $resultado['title'] = 'Error';
+        $resultado['activo'] = false;
         $resultado['icon'] = 'error';
+
         try{
             $perfil = $this->miPerfilModel->find($idPerfiles);
             if($perfil != null){
                 $resultado['title'] = 'Éxito';
                 $resultado['text'] = 'Se ha encontrado el perfil correctamente';
                 $resultado['icon'] = 'success';
-                
+                $resultado['activo'] = true;
                 $resultado['perfil'] = $perfil;
             }else{
                 $resultado['text'] = 'No se ha encontrado el perfil';

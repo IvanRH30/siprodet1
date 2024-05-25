@@ -39,22 +39,26 @@ $routes->get('Areas/Nueva', 'AreasController::MostrarAreas');
 $routes->post('Areas/RegistrarActualizarAreas', 'AreasController::AgregarActualizarAreas');
 $routes->get('Areas/VerAreas', 'AreasController::VerAreas');
 $routes->get('Areas/GetAreas', 'AreasController::GetAreas');
+$routes->get('Areas/DeshabilitarHabilitar/(:num)', 'AreasController::DeshabilitarHabilitarAreaById/$1');
 $routes->get('Areas/GetAreasByID/(:num)', 'AreasController::GetAreaByID/$1');
 
 $routes->get('Perfiles/Nuevo', 'PerfilesController::MostrarPerfiles');
 $routes->post('Perfiles/RegistrarActualizarPerfiles', 'PerfilesController::AgregarActualizarPerfiles');
 $routes->get('Perfiles/VerPerfiles', 'PerfilesController::VerPerfiles');
 $routes->get('Perfiles/GetPerfiles', 'PerfilesController::GetPerfiles');
+$routes->get('Perfiles/DeshabilitarHabilitar/(:num)', 'PerfilesController::DeshabilitarHabilitarPerfilById/$1');
 $routes->get('Perfiles/GetPerfilesByID/(:num)', 'PerfilesController::GetPerfilByID/$1');
 
 $routes->get('Procuradurias/Nueva', 'ProcuraduriasController::MostrarProcuraduria');
 $routes->post('Procuradurias/RegistrarActualizarProcuraduria', 'ProcuraduriasController::AgregarActualizarProcuradurias');
 $routes->get('Procuradurias/VerProcuradurias', 'ProcuraduriasController::VerProcuradurias');
 $routes->get('Procuradurias/GetProcuradurias', 'ProcuraduriasController::GetProcuradurias');
-$routes->get('Procuradurias/GetProcuraduriasByID/', 'ProcuraduriasController::GetProcuraduriaByID/$1');
+$routes->get('Procuradurias/DeshabilitarHabilitar/(:num)', 'ProcuraduriasController::DeshabilitarHabilitarProcuraduriaById/$1');
+$routes->get('Procuradurias/GetProcuraduriasByID/(:num)', 'ProcuraduriasController::GetProcuraduriaByID/$1');
 
 $routes->get('TipoFacultados/Nuevo', 'TipoFacultadoController::MostrarTipoFacultado');
 $routes->post('TipoFacultados/RegistrarActualizarTipoFacultados', 'TipoFacultadoController::AgregarActualizarTipoFacultado');
 $routes->get('TipoFacultados/VerTipoFacultados', 'TipoFacultadoController::VerTipoFacultados');
 $routes->get('TipoFacultados/GetTipoFacultados', 'TipoFacultadoController::GetTipoFacultados');
-$routes->get('TipoFacultados/GetTipoFacultadosByID/', 'TipoFacultadosController::GetTipoFacultadosByID');
+$routes->get('TipoFacultados/DeshabilitarHabilitar/(:num)', 'TipoFacultadoController::DeshabilitarHabilitarById/$1');
+$routes->get('TipoFacultados/GetTipoFacultadosByID/(:num)', 'TipoFacultadoController::GetTipoFacultadosByID/$1');

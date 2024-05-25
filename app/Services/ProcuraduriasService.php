@@ -22,12 +22,12 @@ class ProcuraduriasService {
             $resultado['title'] = 'Exito';
             $resultado['text'] = 'Se ha '.$texto.' la procuraduria correctamente';
             $resultado['icon'] = 'success';
-            //$resultado['estatus'] = true;
+            $resultado['activo'] = true;
         }else{
             $resultado['title'] = 'Error';
             $resultado['text'] = 'No se ha '.$texto.' la procuraduria ';
             $resultado['icon'] = 'error';
-            //$resultado['estatus'] = false;
+            $resultado['activo'] = false;
         }
         return $resultado;
     }
@@ -36,6 +36,8 @@ class ProcuraduriasService {
         try{
             $infoProcuradurias = [
                 "nombre" => $datos->getVar('nombre_procuraduria'),
+                "num_entidad" => $datos->getVar('num_entidad'),
+                "activo" => true,
             ];
             $this->miProcuraduriaModel->insert($infoProcuradurias);
             return true;
@@ -49,6 +51,7 @@ class ProcuraduriasService {
             $idProcuradurias = $datos->getVar('idProcuradurias');
             $infoProcuraduriaActual = $this->miProcuraduriaModel->find($idProcuradurias);
             $infoProcuraduriaActual->nombre = $datos->getVar('nombre_procuraduria');
+            $infoProcuraduriaActual->num_entidad = $datos->getVar('numero_entidad');
             $nuevaInfo = $infoProcuraduriaActual;
             $this->miProcuraduriaModel->update($idProcuradurias, $nuevaInfo);
             return true;
@@ -63,27 +66,49 @@ class ProcuraduriasService {
             $resultado['title'] = 'Éxito';
             $resultado['text'] =  'Se han encontrado procuradurias';
             $resultado['icon'] = 'success';
-            
+            $resultado['activo'] = true;
             $resultado['procuradurias'] =$procuradurias;
         } catch(\Exception $th){
             $resultado['title'] = 'Error';
             $resultado['text'] = 'No se ha encontrado procuradurias ';
             $resultado['icon'] = 'error';
+            $resultado['activo'] = false;
             
+        }
+        return $resultado;
+    }
+
+    public function DeshabilitarHabilitarProcuraduriaById($idProcuradurias){
+        try{
+            $procuraduria = $this->miProcuraduriaModel->find($idProcuradurias);
+            $procuraduria->activo = ($procuraduria->activo == "t") ? false : true;
+            $this->miProcuraduriaModel->update( $idProcuradurias, $procuraduria);
+            $texto = ($procuraduria->activo == "t")? 'Activa' : 'Inactiva';
+            $resultado['title'] = 'Éxito';
+            $resultado['text'] = 'Se ha ' . $texto . ' la procuraduria correctamente';
+            $resultado['icon'] = 'success';
+            $resultado['activo'] = true;
+
+        }catch(\Exception $th){
+            $resultado['title'] = 'Error';
+            $resultado['text'] = 'No se ha ' . $texto . '  la procuraduria ';
+            $resultado['icon'] = 'error';
+            $resultado['activo'] = false;
         }
         return $resultado;
     }
 
     public function GetProcuraduriaByID($idProcuradurias){
         $resultado['title'] = 'Error';
+        $resultado['activo'] = false;
         $resultado['icon'] = 'error';
         try{
             $procuraduria = $this->miProcuraduriaModel->find($idProcuradurias);
             if($procuraduria != null){
-                $resultado['title'] = 'Exito';
+                $resultado['title'] = 'Éxito';
                 $resultado['text'] = 'Se ha encontrado la procuraduria correctamente';
-                $resultado['icon'] = 'succes';
-
+                $resultado['icon'] = 'success';
+                $resultado['activo'] = true;
                 $resultado['procuraduria'] = $procuraduria;
             }else{
                 $resultado['text'] = 'No se ha encontrado la procuraduria';

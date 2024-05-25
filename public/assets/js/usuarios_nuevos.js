@@ -89,7 +89,7 @@ function deshabilitarUsuario(idUsuario){
     
     swalWithBootstrapButtons.fire({
         title: "Desea habilitar al usuario?",
-        text: "Estación es reversible!",
+        text: "Esta acción es reversible!",
         icon: "warning",
         showCancelButton: true,
         confirmButtonText: "Si habilitar!",

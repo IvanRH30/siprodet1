@@ -10,6 +10,8 @@ class ProcuraduriasModel extends Model{
     protected $allowedFields = 
     [
         'nombre',
+        'num_entidad',
+        'activo',
     ];
 
     protected $returnType = 'object';

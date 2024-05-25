@@ -44,6 +44,7 @@ class ProcuraduriasController extends BaseController
             $resultado['text'] = $errores;
             $resultado['title'] = 'Error';
             $resultado['icon'] = 'error';
+            $resultado['activo'] = false;
         } else {
             $resultado = $this->miProcuraduriaService->AgregarActualizarProcuradurias($this->request);
         }
@@ -58,16 +59,31 @@ class ProcuraduriasController extends BaseController
     public function GetProcuradurias()
     {
         $getProcuradurias = $this->miProcuraduriaService->GetProcuradurias();
-        $procuradurias = $getProcuradurias['procuradurias'];
-        foreach ($procuradurias as $procuraduria) {
-            $btnEditar = '<button class="btn btn-secondary btn active"  onclick="editarProcuradurias('. $procuraduria->id .')" type="button"> Editar </button>';
-            $procuraduria->acciones = $btnEditar;
+        
+        if ($getProcuradurias['activo'] == "t") {
+            $procuradurias = $getProcuradurias['procuradurias'];
+            foreach ($procuradurias as $procuraduria) {
+                $btnEditar = '<button class="btn btn-secondary btn active"  onclick="editarProcuradurias(' . $procuraduria->id . ')" type="button"> Editar </button>';
+                $texto = ($procuraduria->activo == "t")? 'Inactiva' : 'Activa';
+                $btnEliminar = '<button class="btn btn-primary btn active" onclick="deshabilitarProcuradurias('. $procuraduria->id .')"  type="button">'.$texto.'</button>';
+                $procuraduria->acciones = $btnEditar . ' ' . $btnEliminar;
+                $procuraduria->activo = ($procuraduria->activo == "f")? 'Inactivo' : 'Activa';
+            }
+            $resultado = $getProcuradurias;
+        }else{
+            $resultado = $getProcuradurias;
         }
-        $resultado = $getProcuradurias;
+
         return json_encode($resultado);
     }
 
-    public function GetProcuraduriaByID($idProcuradurias){
+    public function DeshabilitarHabilitarProcuraduriaById($idProcuradurias){
+        $resultado = $this->miProcuraduriaService->DeshabilitarHabilitarProcuraduriaById($idProcuradurias);
+        return json_encode($resultado);
+    }
+
+    public function GetProcuraduriaByID($idProcuradurias)
+    {
         $resultado = $this->miProcuraduriaService->GetProcuraduriaByID($idProcuradurias);
         return json_encode($resultado);
     }

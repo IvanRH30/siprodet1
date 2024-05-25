@@ -13,11 +13,16 @@
     <form id="procuraduriasFormulario" role="form p2" method="POST" enctype="multipart/form-data">
         <br>
         <h2>Resgistro de Procuradurias</h2>
-        <input class="form-control" name="idProcuradurias" id="idProcuradurias" placeholder=" " type="text">
+        <input hidden  class="form-control" name="idProcuradurias" id="idProcuradurias" placeholder=" " type="text" value="0">
         <div class="form-group">
             <label class="control-label" for="nombre_procuraduria">Nombre de la Procuraduria</label>
             <input class="form-control" name="nombre_procuraduria" id="nombre_procuraduria" placeholder=" " type="text">
         </div>
+        <div class="form-group">
+            <label class="control-label" for="numero_entidad">Entidad</label>
+            <input class="form-control" name="numero_entidad" id="numero_entidad" placeholder=" " type="text">
+        </div>
+       
         <button class="btn btn-primary pull-right" type="submit">Registrar</button>
     </form>
 </div>

@@ -17,6 +17,7 @@
             <label class="control-label" for="nombre_tipoFacultado">Nombre del tipo Facultado</label>
             <input class="form-control" name="nombre_tipoFacultado" id="nombre_tipoFacultado" placeholder=" " type="text">
         </div>
+        
         <button class="btn btn-primary pull-right" type="submit">Registrar</button>
     </form>
 </div>

@@ -39,6 +39,7 @@ class AreasController extends BaseController{
             $resultado['text'] = $errores;
             $resultado['title'] = 'Error';
             $resultado['icon'] = 'error';
+            $resultado['activo'] = false;
          }else{
             $resultado = $this->miAreaService->AgregarActualizarAreas($this->request);
          }
@@ -51,12 +52,25 @@ class AreasController extends BaseController{
 
     public function GetAreas(){
         $getAreas = $this->miAreaService->GetAreas();
-        $areas = $getAreas['areas'];
-        foreach ($areas as $area){
-            $btnEditar = '<button class="btn btn-secondary btn active"  onclick="editarAreas('. $area->id .')" type="button"> Editar </button>';
-            $area->acciones = $btnEditar;
+        if($getAreas['activo'] == "t"){
+            $areas = $getAreas['areas'];
+            foreach ($areas as $area){
+                $btnEditar = '<button class="btn btn-secondary btn active"  onclick="editarAreas('. $area->id .')" type="button"> Editar </button>';
+                $texto = ($area->activo == "t")? 'Inactiva' : 'Activa';
+                $btnEliminar = '<button class="btn btn-primary btn active" onclick="deshabilitarArea('. $area->id .')"  type="button">'.$texto.'</button>';
+                $area->acciones = $btnEditar . ' ' . $btnEliminar;
+                $area->activo = ($area->activo == "f")? 'Inactiva' : 'Activa';
+            }
+            $resultado = $getAreas;
+            
+        }else{
+            $resultado = $getAreas;
         }
-        $resultado = $getAreas;
+        return json_encode($resultado);
+    }
+
+    public function DeshabilitarHabilitarAreaById($idAreas){
+        $resultado = $this->miAreaService->DeshabilitarHabilitarAreaById($idAreas);
         return json_encode($resultado);
     }
 

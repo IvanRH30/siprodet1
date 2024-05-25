@@ -39,6 +39,7 @@ class TipoFacultadoController extends BaseController{
             $resultado['text'] = $errores;
             $resultado['title'] = 'Error';
             $resultado['icon'] = 'error';
+            $resultado['activo'] = false;
          }else{
             $resultado = $this->miTipoFacultadoService->AgregarActualizarTipoFacultado($this->request);
          }
@@ -52,12 +53,25 @@ class TipoFacultadoController extends BaseController{
 
     public function GetTipoFacultados(){
         $getTipoFacultados = $this->miTipoFacultadoService->GetTipoFacultados();
-        $tipofacultados = $getTipoFacultados['tipofacultados'];
-        foreach ($tipofacultados as $tipofacultado){
-            $btnEditar = '<button class="btn btn-secondary btn active"  onclick="editarTiposFacultados('. $tipofacultado->id .')" type="button"> Editar </button>';
-            $tipofacultado->acciones = $btnEditar;
+        if($getTipoFacultados['activo'] == "t"){
+            $tipofacultados = $getTipoFacultados['tipofacultados'];
+            foreach ($tipofacultados as $tipofacultado){
+                $btnEditar = '<button class="btn btn-secondary btn active"  onclick="editarTiposFacultados('. $tipofacultado->id .')" type="button"> Editar </button>';
+                $texto = ($tipofacultado->activo == "t")? 'Inactiva' : 'Activa';
+                $btnEliminar = '<button class="btn btn-primary btn active" onclick="deshabilitarTipoFacultado('. $tipofacultado->id .')"  type="button">'.$texto.'</button>';
+                $tipofacultado->acciones = $btnEditar . ' ' . $btnEliminar;
+                $tipofacultado->activo=($tipofacultado->activo =="f")? 'Inactiva' : 'Activa';
+                
+            }
+            $resultado = $getTipoFacultados;
+        }else{
+            $resultado = $getTipoFacultados;
         }
-        $resultado = $getTipoFacultados;
+        return json_encode($resultado);
+    }
+
+    public function DeshabilitarHabilitarById($idTipoFacultados){
+        $resultado = $this->miTipoFacultadoService->DeshabilitarHabilitarById($idTipoFacultados);
         return json_encode($resultado);
     }
 

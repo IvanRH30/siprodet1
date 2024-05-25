@@ -29,6 +29,8 @@ $(document).ready(function(){
         data:[],
         columns: [
             {data: "nombre", className: "text-center", width: "30%"},
+            {data: "num_entidad", className: "text-center", width:"12%"},
+            {data: "activo", className: "text-center", width:"12%"},
             {data: "acciones", className: "text-center", width: "12%"},
         ],
         dom: "lfrtip",
@@ -48,6 +50,10 @@ $('#procuraduriasFormulario').submit(function (event){
         dataType: 'JSON',
         success: function(response){
             Swal.fire(response.title, response.text,response.icon);
+            if(response.activo == true){
+                $('#modalFormularioProcuradurias').hide();
+                SetProcuradurias();
+            }
 
         },
         error: function (){
@@ -55,6 +61,60 @@ $('#procuraduriasFormulario').submit(function (event){
         }
     });
 });
+
+function deshabilitarProcuradurias(idProcuradurias){
+    const swalWithBootstrapButtons = Swal.mixin({
+        customClass: {
+            confirmButton: "btn btn-success",
+            cancelButton: "btn btn-danger"
+        },
+        buttonsStyling: false
+    });
+
+    
+    swalWithBootstrapButtons.fire({
+        title: "Desea activar el perfil?",
+        text: "Esta acción es reversible!",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonText: "Si activar!",
+        cancelButtonText: "No, cancelar!",
+        reverseButtons: true
+    }).then((result) => {
+        if (result.isConfirmed) {
+            $.ajax({
+                url: base_url + 'Procuradurias/DeshabilitarHabilitar/' +  idProcuradurias,
+                type: 'GET',
+                dataType: 'JSON', 
+                beforeSend: function (event) {
+                    $("body").dynamicSpinner({ loadingText: "Activando...", });
+                },
+                success: function (response) {
+                    $("body").dynamicSpinnerDestroy({});
+                    Swal.fire(response.title,response.text,response.icon);
+                    if (response.activo == true) {
+                        SetProcuradurias();
+                    }
+                },
+                error: function (){
+                    $("body").dynamicSpinnerDestroy({});
+                    Swal.fire('Error', 'No se ha podido procesar la solicitud', 'error');
+                }
+
+            })
+
+        } else if (
+            /* Read more about handling dismissals below */
+            result.dismiss === Swal.DismissReason.cancel
+        ) {
+            swalWithBootstrapButtons.fire({
+                title: "Cancelado",
+                text: "El usuario sigue deshabilitado",
+                icon: "error"
+            });
+        }
+    });
+}
 
 function SetProcuradurias(){
     if($.fn.DataTable.isDataTable("#tablaProcuradurias")){
@@ -81,7 +141,7 @@ function SetProcuradurias(){
 function editarProcuradurias(idProcuradurias){
     $('#textoAccionModalProcuradurias').text('Actualizar');
     $('#btnAccionModalProcuradurias').text('Actualizar');
-    limpiarFormurlario();
+    limpiarFormulario();
     $('#idProcuradurias').val(idProcuradurias);
     $.ajax({
         url: base_url + 'Procuradurias/GetProcuraduriasByID/' + idProcuradurias,
@@ -92,8 +152,11 @@ function editarProcuradurias(idProcuradurias){
         },
         success: function (response){
             $("body").dynamicSpinnerDestroy({});
-            llenarFormulario(response.procuraduria);
-            $('#modalFormularioProcuradurias').show();
+            if(response.activo == true){
+                llenarFormulario(response.procuraduria);
+                $('#modalFormularioProcuradurias').show();
+            }
+            
         },
         error: function(){
             $("body").dynamicSpinnerDestroy({});
@@ -105,11 +168,13 @@ function editarProcuradurias(idProcuradurias){
 function limpiarFormulario(){
     $('#idProcuradurias').val('');
     $('#nombre_procuraduria').val('');
+    $('#numero_entidad').val('');
 }
 
 function llenarFormulario(procuraduriaInfo){
     $('#idProcuradurias').val(procuraduriaInfo.id);
     $('#nombre_procuraduria').val(procuraduriaInfo.nombre);
+    $('#numero_entidad').val(procuraduriaInfo.num_entidad);
 }
 
 function cierraModal(nombreModal){

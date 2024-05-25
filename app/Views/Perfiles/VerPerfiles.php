@@ -19,6 +19,12 @@
             <thead>
                 <tr>
                     <th>Nombre del Perfil</th>
+                    <th>Nivel de Seguridad</th>
+                    <th>Fecha Alta</th>
+                    <th>Fceha Cambio</th>
+                    <th>Fecha Baja</th>
+                    <th>Estatus</th>
+                    <th>Facultado que modifico</th>
                     <th>Acciones</th>
                 </tr>
             </thead>
@@ -43,6 +49,10 @@
                     <div class="form-group">
                         <label class="control-label" for="nombre_perfil">Nombre del Perfil</label>
                         <input class="form-control" name="nombre_perfil" id="nombre_perfil" placeholder=" " type="text">
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="nivel_seguridad">Nivel de Seguridad</label>
+                        <input class="form-control" name="nivel_seguridad" id="nivel_seguridad" placeholder=" " type="text">
                     </div>
 
                     <a class="btn btn-secondary" onclick="cierraModal('modalFormularioPerfiles')">Cerrar</a>

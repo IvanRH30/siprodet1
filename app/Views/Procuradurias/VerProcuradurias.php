@@ -19,6 +19,8 @@
             <thead>
                 <tr>
                     <th>Nombre de la Procuraduria</th>
+                    <th>Entidad</th>
+                    <th>Estatus</th>
                     <th>Acciones</th>
                 </tr>
             </thead>
@@ -43,14 +45,17 @@
                         <label class="control-label" for="nombre_procuraduria">Nombre de la Procuraduria</label>
                         <input class="form-control" name="nombre_procuraduria" id="nombre_procuraduria" placeholder=" " type="text">
                     </div>
-
+                    <div class="form-group">
+                        <label class="control-label" for="numero_entidad">Entidad</label>
+                        <input class="form-control" name="numero_entidad" id="numero_entidad" placeholder=" " type="text">
+                    </div>
                     <a class="btn btn-secondary" onclick="cierraModal('modalFormularioProcuradurias')">Cerrar</a>
                     <button type="submit" class="btn btn-primary"><span id="btnAccionModalProcuradurias"></button>
                 </form>
 
             </div>
             <div class="modal-footer">
-                
+
             </div>
         </div>
 

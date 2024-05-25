@@ -19,6 +19,11 @@
             <thead>
                 <tr>
                     <th>Nombre del Tipo Facultado</th>
+                    <th>Fecha alta</th>
+                    <th>Fecha cambio</th>
+                    <th>Fecha baja</th>
+                    <th>Estatus</th>
+                    <th>Facultado que modifico</th>
                     <th>Acciones</th>
                 </tr>
             </thead>
@@ -43,14 +48,14 @@
                         <label class="control-label" for="nombre_tipoFacultado">Nombre de la Procuraduria</label>
                         <input class="form-control" name="nombre_tipoFacultado" id="nombre_tipoFacultado" placeholder=" " type="text">
                     </div>
-
+                    
                     <a class="btn btn-secondary" onclick="cierraModal('modalFormularioTipoFacultados')">Cerrar</a>
                     <button type="submit" class="btn btn-primary"><span id="btnAccionModalTipoFacultados"></button>
                 </form>
 
             </div>
             <div class="modal-footer">
-                
+
             </div>
         </div>
 

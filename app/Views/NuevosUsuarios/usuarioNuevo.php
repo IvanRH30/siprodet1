@@ -36,10 +36,6 @@
             <label class="control-label" for="strPassword">Password: </label>
             <input class="form-control" name="strPassword" id="strPassword" placeholder=" " type="text">
         </div>
-        <!--<div class="form-group">
-            <label class="control-label" for="strStatus">Estatus: </label>
-            <input class="form-control" name="strStatus" id="strStatus" placeholder=" " type="text">
-        </div>-->
         <div class="form-group">
             <label class="control-label" for="strPerfil">Numero Perfil: </label>
             <input class="form-control" name="strPerfil" id="strPerfil" placeholder=" " type="text">

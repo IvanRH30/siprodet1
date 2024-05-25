@@ -19,6 +19,16 @@
             <thead>
                 <tr>
                     <th>Nombre del Area</th>
+                    <th>Clave del Area</th>
+                    <th>Telefono del Jefe</th>
+                    <th>Telefono del Subjefe</th>
+                    <th>Telefonon del Secretari(@)</th>
+                    <th>Telefono de Fax</th>
+                    <th>Fecha_alta</th>
+                    <th>Fecha_cambio</th>
+                    <th>Fecha_baja</th>
+                    <th>Estatus</th>
+                    <th>Facultado que modifico</th>
                     <th>Acciones</th>
                 </tr>
             </thead>
@@ -42,6 +52,26 @@
                     <div class="form-group">
                         <label class="control-label" for="nombre_area">Nombre del Area</label>
                         <input class="form-control" name="nombre_area" id="nombre_area" placeholder=" " type="text">
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="clave_areas">Clave del Area</label>
+                        <input class="form-control" name="clave_areas" id="clave_areas" placeholder=" " type="text">
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="tel_jefe">Telefono del Jefe</label>
+                        <input class="form-control" name="tel_jefe" id="tel_jefe" placeholder=" " type="text">
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="tel_subjefe">Telefono del Subjefe</label>
+                        <input class="form-control" name="tel_subjefe" id="tel_subjefe" placeholder=" " type="text">
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="tel_secret">Telefono del secretari(@)</label>
+                        <input class="form-control" name="tel_secret" id="tel_secret" placeholder=" " type="text">
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="tel_fax">Telefono Fax</label>
+                        <input class="form-control" name="tel_fax" id="tel_fax" placeholder=" " type="text">
                     </div>
 
                     <a class="btn btn-secondary" onclick="cierraModal('modalFormularioAreas')">Cerrar</a>

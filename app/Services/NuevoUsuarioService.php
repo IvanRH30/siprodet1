@@ -25,12 +25,12 @@ class NuevoUsuarioService
         }
         if ($accion === true) {
             $resultado['title'] = 'Exito';
-            $resultado['text'] = 'Se ha ' . $texto . ' al usuario correctamente';
+            $resultado['text'] = 'Se ha ' . $texto . ' al facultado correctamente';
             $resultado['icon'] = 'success';
             $resultado['estatus'] = true;
         } else {
             $resultado['title'] = 'Error';
-            $resultado['text'] = 'No se ha ' . $texto . ' al usuario ';
+            $resultado['text'] = 'No se ha ' . $texto . ' facultado usuario ';
             $resultado['icon'] = 'error';
             $resultado['estatus'] = false;
         }
