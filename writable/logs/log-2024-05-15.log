@@ -1,0 +1,733 @@
+CRITICAL - 2024-05-15 15:25:16 --> Error: Class "App\Services\ProcuraduriasService" not found
+[Method: GET, Route: Procuradurias/Nueva]
+in APPPATH\Controllers\ProcuraduriasController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\ProcuraduriasController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 15:54:51 --> Error: Class "App\Services\ProcuraduriasService" not found
+[Method: GET, Route: Procuradurias/Nueva]
+in APPPATH\Controllers\ProcuraduriasController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\ProcuraduriasController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 15:54:56 --> Error: Class "App\Services\ProcuraduriasService" not found
+[Method: GET, Route: Procuradurias/Nueva]
+in APPPATH\Controllers\ProcuraduriasController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\ProcuraduriasController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 15:55:06 --> Error: Class "App\Services\ProcuraduriasService" not found
+[Method: GET, Route: Procuradurias/Nueva]
+in APPPATH\Controllers\ProcuraduriasController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\ProcuraduriasController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 15:55:10 --> Error: Class "App\Services\ProcuraduriasService" not found
+[Method: GET, Route: Procuradurias/Nueva]
+in APPPATH\Controllers\ProcuraduriasController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\ProcuraduriasController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 15:55:13 --> Error: Class "App\Services\ProcuraduriasService" not found
+[Method: GET, Route: Procuradurias/Nueva]
+in APPPATH\Controllers\ProcuraduriasController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\ProcuraduriasController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 15:56:10 --> Error: Class "App\Services\ProcuraduriasService" not found
+[Method: GET, Route: Procuradurias/Nueva]
+in APPPATH\Controllers\ProcuraduriasController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\ProcuraduriasController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 15:58:16 --> Error: Class "App\Services\ProcuraduriasService" not found
+[Method: GET, Route: Procuradurias/Nueva]
+in APPPATH\Controllers\ProcuraduriasController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\ProcuraduriasController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 15:58:17 --> Error: Class "App\Services\ProcuraduriasService" not found
+[Method: GET, Route: Procuradurias/Nueva]
+in APPPATH\Controllers\ProcuraduriasController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\ProcuraduriasController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 15:58:24 --> Error: Class "App\Services\ProcuraduriasService" not found
+[Method: GET, Route: Procuradurias/Nueva]
+in APPPATH\Controllers\ProcuraduriasController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\ProcuraduriasController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 16:01:14 --> Error: Class "App\Services\ProcuraduriasService" not found
+[Method: GET, Route: Procuradurias/Nueva]
+in APPPATH\Controllers\ProcuraduriasController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\ProcuraduriasController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 16:04:07 --> Error: Class "App\Services\ProcuraduriasService" not found
+[Method: GET, Route: Procuradurias/Nueva]
+in APPPATH\Controllers\ProcuraduriasController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\ProcuraduriasController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 16:04:23 --> Error: Class "App\Services\ProcuraduriasService" not found
+[Method: GET, Route: Procuradurias/Nueva]
+in APPPATH\Controllers\ProcuraduriasController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\ProcuraduriasController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 16:06:48 --> Error: Class "App\Services\ProcuraduriasService" not found
+[Method: GET, Route: Procuradurias/Nueva]
+in APPPATH\Controllers\ProcuraduriasController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\ProcuraduriasController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 16:06:58 --> Error: Class "App\Services\ProcuraduriasService" not found
+[Method: GET, Route: Procuradurias/Nueva]
+in APPPATH\Controllers\ProcuraduriasController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\ProcuraduriasController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 16:07:40 --> Error: Class "App\Services\ProcuraduriasService" not found
+[Method: GET, Route: Procuradurias/Nueva]
+in APPPATH\Controllers\ProcuraduriasController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\ProcuraduriasController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-15 16:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-15 16:10:14 --> Error: Class "App\Services\ProcuraduriasService" not found
+[Method: GET, Route: Procuradurias/VerProcuradurias]
+in APPPATH\Controllers\ProcuraduriasController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\ProcuraduriasController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 16:11:17 --> Error: Class "App\Services\ProcuraduriasService" not found
+[Method: GET, Route: Procuradurias/Nueva]
+in APPPATH\Controllers\ProcuraduriasController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\ProcuraduriasController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-15 16:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 16:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 16:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 16:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 16:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 17:36:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-15 17:36:36 --> Error: Class "App\Models\TipoFacultadoModel" not found
+[Method: GET, Route: TipoFacultados/Nuevo]
+in APPPATH\Services\TipoFacultadoService.php on line 10.
+ 1 APPPATH\Controllers\TipoFacultadoController.php(11): App\Services\TipoFacultadoService->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TipoFacultadoController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-15 17:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 17:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 17:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 17:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 17:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 17:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 17:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 17:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 17:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 17:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 17:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 17:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 17:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 17:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 17:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 17:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 18:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 18:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 18:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 18:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 18:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 18:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 18:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 18:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 18:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 18:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 18:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 18:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 18:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 18:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 18:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 18:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 18:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 18:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 18:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 18:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 18:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 18:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 18:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 18:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 18:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 18:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 18:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-15 18:48:53 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la columna sprc_Facultados.fk_procuraduria_num
+LINE 3: LEFT JOIN &quot;ProcuraduriasNum&quot; &quot;Procuraduria&quot; ON &quot;sprc_Faculta...
+                                                       ^ in C:\xampp\htdocs\nuevo_siprodet\system\Database\Postgre\Connection.php:192
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 192)
+#1 C:\xampp\htdocs\nuevo_siprodet\system\Database\Postgre\Connection.php(192): pg_query(Object(PgSql\Connection), 'SELECT "sprc_Fa...')
+#2 C:\xampp\htdocs\nuevo_siprodet\system\Database\BaseConnection.php(721): CodeIgniter\Database\Postgre\Connection->execute('SELECT "sprc_Fa...')
+#3 C:\xampp\htdocs\nuevo_siprodet\system\Database\BaseConnection.php(635): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "sprc_Fa...')
+#4 C:\xampp\htdocs\nuevo_siprodet\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT "sprc_Fa...', Array, false)
+#5 C:\xampp\htdocs\nuevo_siprodet\system\Model.php(918): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\nuevo_siprodet\app\Services\NuevoUsuarioService.php(106): CodeIgniter\Model->__call('get', Array)
+#7 C:\xampp\htdocs\nuevo_siprodet\app\Controllers\NuevoUsuarioController.php(171): App\Services\NuevoUsuarioService->GetUsuarios()
+#8 C:\xampp\htdocs\nuevo_siprodet\system\CodeIgniter.php(933): App\Controllers\NuevoUsuarioController->GetUsuarios()
+#9 C:\xampp\htdocs\nuevo_siprodet\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NuevoUsuarioController))
+#10 C:\xampp\htdocs\nuevo_siprodet\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\nuevo_siprodet\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\nuevo_siprodet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\nuevo_siprodet\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-05-15 18:48:53 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  no existe la columna sprc_Facultados.fk_procuraduria_num
+LINE 3: LEFT JOIN &quot;ProcuraduriasNum&quot; &quot;Procuraduria&quot; ON &quot;sprc_Faculta...
+                                                       ^
+[Method: GET, Route: Usuario/GetUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 675.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT "sprc_Facultados".*, "Procuraduria"."nombre" AS "procuraduriaNombre"
+FROM "sprc_Facultados"
+LEFT JOIN "ProcuraduriasNum" "Procuraduria" ON "sprc_Facultados"."fk_procuraduria_num" = "Procuraduria"."id"', [], false)
+ 2 SYSTEMPATH\Model.php(918): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Services\NuevoUsuarioService.php(106): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\NuevoUsuarioController.php(171): App\Services\NuevoUsuarioService->GetUsuarios()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NuevoUsuarioController->GetUsuarios()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NuevoUsuarioController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 18:48:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  no existe la columna sprc_Facultados.fk_procuraduria_num
+LINE 3: LEFT JOIN &quot;ProcuraduriasNum&quot; &quot;Procuraduria&quot; ON &quot;sprc_Faculta...
+                                                       ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 197.
+ 1 SYSTEMPATH\Database\BaseConnection.php(721): CodeIgniter\Database\Postgre\Connection->execute('SELECT "sprc_Facultados".*, "Procuraduria"."nombre" AS "procuraduriaNombre"
+FROM "sprc_Facultados"
+LEFT JOIN "ProcuraduriasNum" "Procuraduria" ON "sprc_Facultados"."fk_procuraduria_num" = "Procuraduria"."id"')
+ 2 SYSTEMPATH\Database\BaseConnection.php(635): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "sprc_Facultados".*, "Procuraduria"."nombre" AS "procuraduriaNombre"
+FROM "sprc_Facultados"
+LEFT JOIN "ProcuraduriasNum" "Procuraduria" ON "sprc_Facultados"."fk_procuraduria_num" = "Procuraduria"."id"')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT "sprc_Facultados".*, "Procuraduria"."nombre" AS "procuraduriaNombre"
+FROM "sprc_Facultados"
+LEFT JOIN "ProcuraduriasNum" "Procuraduria" ON "sprc_Facultados"."fk_procuraduria_num" = "Procuraduria"."id"', [], false)
+ 4 SYSTEMPATH\Model.php(918): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Services\NuevoUsuarioService.php(106): CodeIgniter\Model->__call('get', [])
+ 6 APPPATH\Controllers\NuevoUsuarioController.php(171): App\Services\NuevoUsuarioService->GetUsuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NuevoUsuarioController->GetUsuarios()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NuevoUsuarioController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 18:48:53 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  no existe la columna sprc_Facultados.fk_procuraduria_num
+LINE 3: LEFT JOIN &quot;ProcuraduriasNum&quot; &quot;Procuraduria&quot; ON &quot;sprc_Faculta...
+                                                       ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la columna sprc_Facultados.fk_procuraduria_num
+LINE 3: LEFT JOIN &quot;ProcuraduriasNum&quot; &quot;Procuraduria&quot; ON &quot;sprc_Faculta...
+                                                       ^', 'C:\\xampp\\htdocs\\nuevo_siprodet\\system\\Database\\Postgre\\Connection.php', 192)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(192): pg_query(Object(PgSql\Connection), 'SELECT "sprc_Facultados".*, "Procuraduria"."nombre" AS "procuraduriaNombre"
+FROM "sprc_Facultados"
+LEFT JOIN "ProcuraduriasNum" "Procuraduria" ON "sprc_Facultados"."fk_procuraduria_num" = "Procuraduria"."id"')
+ 3 SYSTEMPATH\Database\BaseConnection.php(721): CodeIgniter\Database\Postgre\Connection->execute('SELECT "sprc_Facultados".*, "Procuraduria"."nombre" AS "procuraduriaNombre"
+FROM "sprc_Facultados"
+LEFT JOIN "ProcuraduriasNum" "Procuraduria" ON "sprc_Facultados"."fk_procuraduria_num" = "Procuraduria"."id"')
+ 4 SYSTEMPATH\Database\BaseConnection.php(635): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "sprc_Facultados".*, "Procuraduria"."nombre" AS "procuraduriaNombre"
+FROM "sprc_Facultados"
+LEFT JOIN "ProcuraduriasNum" "Procuraduria" ON "sprc_Facultados"."fk_procuraduria_num" = "Procuraduria"."id"')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT "sprc_Facultados".*, "Procuraduria"."nombre" AS "procuraduriaNombre"
+FROM "sprc_Facultados"
+LEFT JOIN "ProcuraduriasNum" "Procuraduria" ON "sprc_Facultados"."fk_procuraduria_num" = "Procuraduria"."id"', [], false)
+ 6 SYSTEMPATH\Model.php(918): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Services\NuevoUsuarioService.php(106): CodeIgniter\Model->__call('get', [])
+ 8 APPPATH\Controllers\NuevoUsuarioController.php(171): App\Services\NuevoUsuarioService->GetUsuarios()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NuevoUsuarioController->GetUsuarios()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NuevoUsuarioController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-15 18:49:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-15 18:50:46 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la columna sprc_Facultados.fk_procuraduria_num
+LINE 3: LEFT JOIN &quot;ProcuraduriasNum&quot; &quot;Procuraduria&quot; ON &quot;sprc_Faculta...
+                                                       ^ in C:\xampp\htdocs\nuevo_siprodet\system\Database\Postgre\Connection.php:192
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 192)
+#1 C:\xampp\htdocs\nuevo_siprodet\system\Database\Postgre\Connection.php(192): pg_query(Object(PgSql\Connection), 'SELECT "sprc_Fa...')
+#2 C:\xampp\htdocs\nuevo_siprodet\system\Database\BaseConnection.php(721): CodeIgniter\Database\Postgre\Connection->execute('SELECT "sprc_Fa...')
+#3 C:\xampp\htdocs\nuevo_siprodet\system\Database\BaseConnection.php(635): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "sprc_Fa...')
+#4 C:\xampp\htdocs\nuevo_siprodet\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT "sprc_Fa...', Array, false)
+#5 C:\xampp\htdocs\nuevo_siprodet\system\Model.php(918): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\nuevo_siprodet\app\Services\NuevoUsuarioService.php(106): CodeIgniter\Model->__call('get', Array)
+#7 C:\xampp\htdocs\nuevo_siprodet\app\Controllers\NuevoUsuarioController.php(171): App\Services\NuevoUsuarioService->GetUsuarios()
+#8 C:\xampp\htdocs\nuevo_siprodet\system\CodeIgniter.php(933): App\Controllers\NuevoUsuarioController->GetUsuarios()
+#9 C:\xampp\htdocs\nuevo_siprodet\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NuevoUsuarioController))
+#10 C:\xampp\htdocs\nuevo_siprodet\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\nuevo_siprodet\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\nuevo_siprodet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\nuevo_siprodet\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-05-15 18:54:49 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  no existe la columna sprc_Facultados.fk_procuraduria_num
+LINE 3: LEFT JOIN &quot;ProcuraduriasNum&quot; &quot;Procuraduria&quot; ON &quot;sprc_Faculta...
+                                                       ^
+[Method: GET, Route: Usuario/GetUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 675.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT "sprc_Facultados".*, "Procuraduria"."nombre" AS "procuraduriaNombre"
+FROM "sprc_Facultados"
+LEFT JOIN "ProcuraduriasNum" "Procuraduria" ON "sprc_Facultados"."fk_procuraduria_num" = "Procuraduria"."id"', [], false)
+ 2 SYSTEMPATH\Model.php(918): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Services\NuevoUsuarioService.php(106): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\NuevoUsuarioController.php(171): App\Services\NuevoUsuarioService->GetUsuarios()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NuevoUsuarioController->GetUsuarios()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NuevoUsuarioController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 18:54:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  no existe la columna sprc_Facultados.fk_procuraduria_num
+LINE 3: LEFT JOIN &quot;ProcuraduriasNum&quot; &quot;Procuraduria&quot; ON &quot;sprc_Faculta...
+                                                       ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 197.
+ 1 SYSTEMPATH\Database\BaseConnection.php(721): CodeIgniter\Database\Postgre\Connection->execute('SELECT "sprc_Facultados".*, "Procuraduria"."nombre" AS "procuraduriaNombre"
+FROM "sprc_Facultados"
+LEFT JOIN "ProcuraduriasNum" "Procuraduria" ON "sprc_Facultados"."fk_procuraduria_num" = "Procuraduria"."id"')
+ 2 SYSTEMPATH\Database\BaseConnection.php(635): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "sprc_Facultados".*, "Procuraduria"."nombre" AS "procuraduriaNombre"
+FROM "sprc_Facultados"
+LEFT JOIN "ProcuraduriasNum" "Procuraduria" ON "sprc_Facultados"."fk_procuraduria_num" = "Procuraduria"."id"')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT "sprc_Facultados".*, "Procuraduria"."nombre" AS "procuraduriaNombre"
+FROM "sprc_Facultados"
+LEFT JOIN "ProcuraduriasNum" "Procuraduria" ON "sprc_Facultados"."fk_procuraduria_num" = "Procuraduria"."id"', [], false)
+ 4 SYSTEMPATH\Model.php(918): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Services\NuevoUsuarioService.php(106): CodeIgniter\Model->__call('get', [])
+ 6 APPPATH\Controllers\NuevoUsuarioController.php(171): App\Services\NuevoUsuarioService->GetUsuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NuevoUsuarioController->GetUsuarios()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NuevoUsuarioController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 18:54:49 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  no existe la columna sprc_Facultados.fk_procuraduria_num
+LINE 3: LEFT JOIN &quot;ProcuraduriasNum&quot; &quot;Procuraduria&quot; ON &quot;sprc_Faculta...
+                                                       ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la columna sprc_Facultados.fk_procuraduria_num
+LINE 3: LEFT JOIN &quot;ProcuraduriasNum&quot; &quot;Procuraduria&quot; ON &quot;sprc_Faculta...
+                                                       ^', 'C:\\xampp\\htdocs\\nuevo_siprodet\\system\\Database\\Postgre\\Connection.php', 192)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(192): pg_query(Object(PgSql\Connection), 'SELECT "sprc_Facultados".*, "Procuraduria"."nombre" AS "procuraduriaNombre"
+FROM "sprc_Facultados"
+LEFT JOIN "ProcuraduriasNum" "Procuraduria" ON "sprc_Facultados"."fk_procuraduria_num" = "Procuraduria"."id"')
+ 3 SYSTEMPATH\Database\BaseConnection.php(721): CodeIgniter\Database\Postgre\Connection->execute('SELECT "sprc_Facultados".*, "Procuraduria"."nombre" AS "procuraduriaNombre"
+FROM "sprc_Facultados"
+LEFT JOIN "ProcuraduriasNum" "Procuraduria" ON "sprc_Facultados"."fk_procuraduria_num" = "Procuraduria"."id"')
+ 4 SYSTEMPATH\Database\BaseConnection.php(635): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "sprc_Facultados".*, "Procuraduria"."nombre" AS "procuraduriaNombre"
+FROM "sprc_Facultados"
+LEFT JOIN "ProcuraduriasNum" "Procuraduria" ON "sprc_Facultados"."fk_procuraduria_num" = "Procuraduria"."id"')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT "sprc_Facultados".*, "Procuraduria"."nombre" AS "procuraduriaNombre"
+FROM "sprc_Facultados"
+LEFT JOIN "ProcuraduriasNum" "Procuraduria" ON "sprc_Facultados"."fk_procuraduria_num" = "Procuraduria"."id"', [], false)
+ 6 SYSTEMPATH\Model.php(918): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Services\NuevoUsuarioService.php(106): CodeIgniter\Model->__call('get', [])
+ 8 APPPATH\Controllers\NuevoUsuarioController.php(171): App\Services\NuevoUsuarioService->GetUsuarios()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NuevoUsuarioController->GetUsuarios()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NuevoUsuarioController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-15 18:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-15 18:55:37 --> Error: Call to undefined method CodeIgniter\Database\Postgre\Result::getResut()
+[Method: GET, Route: Usuario/GetUsuarios]
+in APPPATH\Services\NuevoUsuarioService.php on line 105.
+ 1 APPPATH\Controllers\NuevoUsuarioController.php(171): App\Services\NuevoUsuarioService->GetUsuarios()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NuevoUsuarioController->GetUsuarios()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NuevoUsuarioController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-15 18:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 18:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:02:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:14:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:14:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-15 20:25:37 --> ErrorException: pg_query(): Query failed: ERROR:  falta una entrada para la tabla «//TABLA DE MI BASE PRINCIPAL Procuraduria» en la cláusula FROM
+LINE 1: SELECT &quot;sprc_Facultados&quot;.*, &quot;//TABLA DE MI BASE PRINCIPAL Pr...
+                                    ^ in C:\xampp\htdocs\nuevo_siprodet\system\Database\Postgre\Connection.php:192
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 192)
+#1 C:\xampp\htdocs\nuevo_siprodet\system\Database\Postgre\Connection.php(192): pg_query(Object(PgSql\Connection), 'SELECT "sprc_Fa...')
+#2 C:\xampp\htdocs\nuevo_siprodet\system\Database\BaseConnection.php(721): CodeIgniter\Database\Postgre\Connection->execute('SELECT "sprc_Fa...')
+#3 C:\xampp\htdocs\nuevo_siprodet\system\Database\BaseConnection.php(635): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "sprc_Fa...')
+#4 C:\xampp\htdocs\nuevo_siprodet\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT "sprc_Fa...', Array, false)
+#5 C:\xampp\htdocs\nuevo_siprodet\system\Model.php(918): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\nuevo_siprodet\app\Services\NuevoUsuarioService.php(108): CodeIgniter\Model->__call('get', Array)
+#7 C:\xampp\htdocs\nuevo_siprodet\app\Controllers\NuevoUsuarioController.php(171): App\Services\NuevoUsuarioService->GetUsuarios()
+#8 C:\xampp\htdocs\nuevo_siprodet\system\CodeIgniter.php(933): App\Controllers\NuevoUsuarioController->GetUsuarios()
+#9 C:\xampp\htdocs\nuevo_siprodet\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NuevoUsuarioController))
+#10 C:\xampp\htdocs\nuevo_siprodet\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\nuevo_siprodet\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\nuevo_siprodet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\nuevo_siprodet\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-05-15 20:25:37 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  falta una entrada para la tabla «//TABLA DE MI BASE PRINCIPAL Procuraduria» en la cláusula FROM
+LINE 1: SELECT &quot;sprc_Facultados&quot;.*, &quot;//TABLA DE MI BASE PRINCIPAL Pr...
+                                    ^
+[Method: GET, Route: Usuario/GetUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 675.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT "sprc_Facultados".*, "//TABLA DE MI BASE PRINCIPAL Procuraduria"."nombre" AS "procuraduriaNombre", "perfil"."nombre" AS "perfilnombre"
+FROM "sprc_Facultados"
+LEFT JOIN "ProcuraduriasNum" "Procuraduria" ON "sprc_Facultados"."numProcuraduriaID" = "Procuraduria"."id"
+JOIN "Perfiles" "perfil" ON "sprc_Facultados"."numPerfilId" = "perfil"."id"', [], false)
+ 2 SYSTEMPATH\Model.php(918): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Services\NuevoUsuarioService.php(108): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\NuevoUsuarioController.php(171): App\Services\NuevoUsuarioService->GetUsuarios()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NuevoUsuarioController->GetUsuarios()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NuevoUsuarioController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 20:25:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  falta una entrada para la tabla «//TABLA DE MI BASE PRINCIPAL Procuraduria» en la cláusula FROM
+LINE 1: SELECT &quot;sprc_Facultados&quot;.*, &quot;//TABLA DE MI BASE PRINCIPAL Pr...
+                                    ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 197.
+ 1 SYSTEMPATH\Database\BaseConnection.php(721): CodeIgniter\Database\Postgre\Connection->execute('SELECT "sprc_Facultados".*, "//TABLA DE MI BASE PRINCIPAL Procuraduria"."nombre" AS "procuraduriaNombre", "perfil"."nombre" AS "perfilnombre"
+FROM "sprc_Facultados"
+LEFT JOIN "ProcuraduriasNum" "Procuraduria" ON "sprc_Facultados"."numProcuraduriaID" = "Procuraduria"."id"
+JOIN "Perfiles" "perfil" ON "sprc_Facultados"."numPerfilId" = "perfil"."id"')
+ 2 SYSTEMPATH\Database\BaseConnection.php(635): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "sprc_Facultados".*, "//TABLA DE MI BASE PRINCIPAL Procuraduria"."nombre" AS "procuraduriaNombre", "perfil"."nombre" AS "perfilnombre"
+FROM "sprc_Facultados"
+LEFT JOIN "ProcuraduriasNum" "Procuraduria" ON "sprc_Facultados"."numProcuraduriaID" = "Procuraduria"."id"
+JOIN "Perfiles" "perfil" ON "sprc_Facultados"."numPerfilId" = "perfil"."id"')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT "sprc_Facultados".*, "//TABLA DE MI BASE PRINCIPAL Procuraduria"."nombre" AS "procuraduriaNombre", "perfil"."nombre" AS "perfilnombre"
+FROM "sprc_Facultados"
+LEFT JOIN "ProcuraduriasNum" "Procuraduria" ON "sprc_Facultados"."numProcuraduriaID" = "Procuraduria"."id"
+JOIN "Perfiles" "perfil" ON "sprc_Facultados"."numPerfilId" = "perfil"."id"', [], false)
+ 4 SYSTEMPATH\Model.php(918): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Services\NuevoUsuarioService.php(108): CodeIgniter\Model->__call('get', [])
+ 6 APPPATH\Controllers\NuevoUsuarioController.php(171): App\Services\NuevoUsuarioService->GetUsuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NuevoUsuarioController->GetUsuarios()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NuevoUsuarioController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 20:25:37 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  falta una entrada para la tabla «//TABLA DE MI BASE PRINCIPAL Procuraduria» en la cláusula FROM
+LINE 1: SELECT &quot;sprc_Facultados&quot;.*, &quot;//TABLA DE MI BASE PRINCIPAL Pr...
+                                    ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  falta una entrada para la tabla «//TABLA DE MI BASE PRINCIPAL Procuraduria» en la cláusula FROM
+LINE 1: SELECT &quot;sprc_Facultados&quot;.*, &quot;//TABLA DE MI BASE PRINCIPAL Pr...
+                                    ^', 'C:\\xampp\\htdocs\\nuevo_siprodet\\system\\Database\\Postgre\\Connection.php', 192)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(192): pg_query(Object(PgSql\Connection), 'SELECT "sprc_Facultados".*, "//TABLA DE MI BASE PRINCIPAL Procuraduria"."nombre" AS "procuraduriaNombre", "perfil"."nombre" AS "perfilnombre"
+FROM "sprc_Facultados"
+LEFT JOIN "ProcuraduriasNum" "Procuraduria" ON "sprc_Facultados"."numProcuraduriaID" = "Procuraduria"."id"
+JOIN "Perfiles" "perfil" ON "sprc_Facultados"."numPerfilId" = "perfil"."id"')
+ 3 SYSTEMPATH\Database\BaseConnection.php(721): CodeIgniter\Database\Postgre\Connection->execute('SELECT "sprc_Facultados".*, "//TABLA DE MI BASE PRINCIPAL Procuraduria"."nombre" AS "procuraduriaNombre", "perfil"."nombre" AS "perfilnombre"
+FROM "sprc_Facultados"
+LEFT JOIN "ProcuraduriasNum" "Procuraduria" ON "sprc_Facultados"."numProcuraduriaID" = "Procuraduria"."id"
+JOIN "Perfiles" "perfil" ON "sprc_Facultados"."numPerfilId" = "perfil"."id"')
+ 4 SYSTEMPATH\Database\BaseConnection.php(635): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "sprc_Facultados".*, "//TABLA DE MI BASE PRINCIPAL Procuraduria"."nombre" AS "procuraduriaNombre", "perfil"."nombre" AS "perfilnombre"
+FROM "sprc_Facultados"
+LEFT JOIN "ProcuraduriasNum" "Procuraduria" ON "sprc_Facultados"."numProcuraduriaID" = "Procuraduria"."id"
+JOIN "Perfiles" "perfil" ON "sprc_Facultados"."numPerfilId" = "perfil"."id"')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT "sprc_Facultados".*, "//TABLA DE MI BASE PRINCIPAL Procuraduria"."nombre" AS "procuraduriaNombre", "perfil"."nombre" AS "perfilnombre"
+FROM "sprc_Facultados"
+LEFT JOIN "ProcuraduriasNum" "Procuraduria" ON "sprc_Facultados"."numProcuraduriaID" = "Procuraduria"."id"
+JOIN "Perfiles" "perfil" ON "sprc_Facultados"."numPerfilId" = "perfil"."id"', [], false)
+ 6 SYSTEMPATH\Model.php(918): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Services\NuevoUsuarioService.php(108): CodeIgniter\Model->__call('get', [])
+ 8 APPPATH\Controllers\NuevoUsuarioController.php(171): App\Services\NuevoUsuarioService->GetUsuarios()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NuevoUsuarioController->GetUsuarios()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NuevoUsuarioController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-15 20:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-15 20:25:43 --> ErrorException: pg_query(): Query failed: ERROR:  falta una entrada para la tabla «//TABLA DE MI BASE PRINCIPAL Procuraduria» en la cláusula FROM
+LINE 1: SELECT &quot;sprc_Facultados&quot;.*, &quot;//TABLA DE MI BASE PRINCIPAL Pr...
+                                    ^ in C:\xampp\htdocs\nuevo_siprodet\system\Database\Postgre\Connection.php:192
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 192)
+#1 C:\xampp\htdocs\nuevo_siprodet\system\Database\Postgre\Connection.php(192): pg_query(Object(PgSql\Connection), 'SELECT "sprc_Fa...')
+#2 C:\xampp\htdocs\nuevo_siprodet\system\Database\BaseConnection.php(721): CodeIgniter\Database\Postgre\Connection->execute('SELECT "sprc_Fa...')
+#3 C:\xampp\htdocs\nuevo_siprodet\system\Database\BaseConnection.php(635): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "sprc_Fa...')
+#4 C:\xampp\htdocs\nuevo_siprodet\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT "sprc_Fa...', Array, false)
+#5 C:\xampp\htdocs\nuevo_siprodet\system\Model.php(918): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\nuevo_siprodet\app\Services\NuevoUsuarioService.php(108): CodeIgniter\Model->__call('get', Array)
+#7 C:\xampp\htdocs\nuevo_siprodet\app\Controllers\NuevoUsuarioController.php(171): App\Services\NuevoUsuarioService->GetUsuarios()
+#8 C:\xampp\htdocs\nuevo_siprodet\system\CodeIgniter.php(933): App\Controllers\NuevoUsuarioController->GetUsuarios()
+#9 C:\xampp\htdocs\nuevo_siprodet\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NuevoUsuarioController))
+#10 C:\xampp\htdocs\nuevo_siprodet\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\nuevo_siprodet\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\nuevo_siprodet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\nuevo_siprodet\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-05-15 20:25:44 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  falta una entrada para la tabla «//TABLA DE MI BASE PRINCIPAL Procuraduria» en la cláusula FROM
+LINE 1: SELECT &quot;sprc_Facultados&quot;.*, &quot;//TABLA DE MI BASE PRINCIPAL Pr...
+                                    ^
+[Method: GET, Route: Usuario/GetUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 675.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT "sprc_Facultados".*, "//TABLA DE MI BASE PRINCIPAL Procuraduria"."nombre" AS "procuraduriaNombre", "perfil"."nombre" AS "perfilnombre"
+FROM "sprc_Facultados"
+LEFT JOIN "ProcuraduriasNum" "Procuraduria" ON "sprc_Facultados"."numProcuraduriaID" = "Procuraduria"."id"
+JOIN "Perfiles" "perfil" ON "sprc_Facultados"."numPerfilId" = "perfil"."id"', [], false)
+ 2 SYSTEMPATH\Model.php(918): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Services\NuevoUsuarioService.php(108): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\NuevoUsuarioController.php(171): App\Services\NuevoUsuarioService->GetUsuarios()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NuevoUsuarioController->GetUsuarios()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NuevoUsuarioController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 20:25:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  falta una entrada para la tabla «//TABLA DE MI BASE PRINCIPAL Procuraduria» en la cláusula FROM
+LINE 1: SELECT &quot;sprc_Facultados&quot;.*, &quot;//TABLA DE MI BASE PRINCIPAL Pr...
+                                    ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 197.
+ 1 SYSTEMPATH\Database\BaseConnection.php(721): CodeIgniter\Database\Postgre\Connection->execute('SELECT "sprc_Facultados".*, "//TABLA DE MI BASE PRINCIPAL Procuraduria"."nombre" AS "procuraduriaNombre", "perfil"."nombre" AS "perfilnombre"
+FROM "sprc_Facultados"
+LEFT JOIN "ProcuraduriasNum" "Procuraduria" ON "sprc_Facultados"."numProcuraduriaID" = "Procuraduria"."id"
+JOIN "Perfiles" "perfil" ON "sprc_Facultados"."numPerfilId" = "perfil"."id"')
+ 2 SYSTEMPATH\Database\BaseConnection.php(635): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "sprc_Facultados".*, "//TABLA DE MI BASE PRINCIPAL Procuraduria"."nombre" AS "procuraduriaNombre", "perfil"."nombre" AS "perfilnombre"
+FROM "sprc_Facultados"
+LEFT JOIN "ProcuraduriasNum" "Procuraduria" ON "sprc_Facultados"."numProcuraduriaID" = "Procuraduria"."id"
+JOIN "Perfiles" "perfil" ON "sprc_Facultados"."numPerfilId" = "perfil"."id"')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT "sprc_Facultados".*, "//TABLA DE MI BASE PRINCIPAL Procuraduria"."nombre" AS "procuraduriaNombre", "perfil"."nombre" AS "perfilnombre"
+FROM "sprc_Facultados"
+LEFT JOIN "ProcuraduriasNum" "Procuraduria" ON "sprc_Facultados"."numProcuraduriaID" = "Procuraduria"."id"
+JOIN "Perfiles" "perfil" ON "sprc_Facultados"."numPerfilId" = "perfil"."id"', [], false)
+ 4 SYSTEMPATH\Model.php(918): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Services\NuevoUsuarioService.php(108): CodeIgniter\Model->__call('get', [])
+ 6 APPPATH\Controllers\NuevoUsuarioController.php(171): App\Services\NuevoUsuarioService->GetUsuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NuevoUsuarioController->GetUsuarios()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NuevoUsuarioController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 20:25:44 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  falta una entrada para la tabla «//TABLA DE MI BASE PRINCIPAL Procuraduria» en la cláusula FROM
+LINE 1: SELECT &quot;sprc_Facultados&quot;.*, &quot;//TABLA DE MI BASE PRINCIPAL Pr...
+                                    ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  falta una entrada para la tabla «//TABLA DE MI BASE PRINCIPAL Procuraduria» en la cláusula FROM
+LINE 1: SELECT &quot;sprc_Facultados&quot;.*, &quot;//TABLA DE MI BASE PRINCIPAL Pr...
+                                    ^', 'C:\\xampp\\htdocs\\nuevo_siprodet\\system\\Database\\Postgre\\Connection.php', 192)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(192): pg_query(Object(PgSql\Connection), 'SELECT "sprc_Facultados".*, "//TABLA DE MI BASE PRINCIPAL Procuraduria"."nombre" AS "procuraduriaNombre", "perfil"."nombre" AS "perfilnombre"
+FROM "sprc_Facultados"
+LEFT JOIN "ProcuraduriasNum" "Procuraduria" ON "sprc_Facultados"."numProcuraduriaID" = "Procuraduria"."id"
+JOIN "Perfiles" "perfil" ON "sprc_Facultados"."numPerfilId" = "perfil"."id"')
+ 3 SYSTEMPATH\Database\BaseConnection.php(721): CodeIgniter\Database\Postgre\Connection->execute('SELECT "sprc_Facultados".*, "//TABLA DE MI BASE PRINCIPAL Procuraduria"."nombre" AS "procuraduriaNombre", "perfil"."nombre" AS "perfilnombre"
+FROM "sprc_Facultados"
+LEFT JOIN "ProcuraduriasNum" "Procuraduria" ON "sprc_Facultados"."numProcuraduriaID" = "Procuraduria"."id"
+JOIN "Perfiles" "perfil" ON "sprc_Facultados"."numPerfilId" = "perfil"."id"')
+ 4 SYSTEMPATH\Database\BaseConnection.php(635): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "sprc_Facultados".*, "//TABLA DE MI BASE PRINCIPAL Procuraduria"."nombre" AS "procuraduriaNombre", "perfil"."nombre" AS "perfilnombre"
+FROM "sprc_Facultados"
+LEFT JOIN "ProcuraduriasNum" "Procuraduria" ON "sprc_Facultados"."numProcuraduriaID" = "Procuraduria"."id"
+JOIN "Perfiles" "perfil" ON "sprc_Facultados"."numPerfilId" = "perfil"."id"')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT "sprc_Facultados".*, "//TABLA DE MI BASE PRINCIPAL Procuraduria"."nombre" AS "procuraduriaNombre", "perfil"."nombre" AS "perfilnombre"
+FROM "sprc_Facultados"
+LEFT JOIN "ProcuraduriasNum" "Procuraduria" ON "sprc_Facultados"."numProcuraduriaID" = "Procuraduria"."id"
+JOIN "Perfiles" "perfil" ON "sprc_Facultados"."numPerfilId" = "perfil"."id"', [], false)
+ 6 SYSTEMPATH\Model.php(918): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Services\NuevoUsuarioService.php(108): CodeIgniter\Model->__call('get', [])
+ 8 APPPATH\Controllers\NuevoUsuarioController.php(171): App\Services\NuevoUsuarioService->GetUsuarios()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NuevoUsuarioController->GetUsuarios()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NuevoUsuarioController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-15 20:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-15 20:26:20 --> ErrorException: pg_query(): Query failed: ERROR:  falta una entrada para la tabla «//TABLA DE MI BASE PRINCIPAL Procuraduria» en la cláusula FROM
+LINE 1: SELECT &quot;sprc_Facultados&quot;.*, &quot;//TABLA DE MI BASE PRINCIPAL Pr...
+                                    ^ in C:\xampp\htdocs\nuevo_siprodet\system\Database\Postgre\Connection.php:192
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 192)
+#1 C:\xampp\htdocs\nuevo_siprodet\system\Database\Postgre\Connection.php(192): pg_query(Object(PgSql\Connection), 'SELECT "sprc_Fa...')
+#2 C:\xampp\htdocs\nuevo_siprodet\system\Database\BaseConnection.php(721): CodeIgniter\Database\Postgre\Connection->execute('SELECT "sprc_Fa...')
+#3 C:\xampp\htdocs\nuevo_siprodet\system\Database\BaseConnection.php(635): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "sprc_Fa...')
+#4 C:\xampp\htdocs\nuevo_siprodet\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT "sprc_Fa...', Array, false)
+#5 C:\xampp\htdocs\nuevo_siprodet\system\Model.php(918): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\nuevo_siprodet\app\Services\NuevoUsuarioService.php(108): CodeIgniter\Model->__call('get', Array)
+#7 C:\xampp\htdocs\nuevo_siprodet\app\Controllers\NuevoUsuarioController.php(171): App\Services\NuevoUsuarioService->GetUsuarios()
+#8 C:\xampp\htdocs\nuevo_siprodet\system\CodeIgniter.php(933): App\Controllers\NuevoUsuarioController->GetUsuarios()
+#9 C:\xampp\htdocs\nuevo_siprodet\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NuevoUsuarioController))
+#10 C:\xampp\htdocs\nuevo_siprodet\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\nuevo_siprodet\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\nuevo_siprodet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\nuevo_siprodet\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+INFO - 2024-05-15 20:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 21:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 21:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 21:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 21:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 21:37:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 21:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 21:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 21:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 21:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 21:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 21:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 21:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 21:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 21:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-15 23:12:19 --> ErrorException: pg_query(): Query failed: ERROR:  llave duplicada viola restricción de unicidad «ProcuraduriasNum_pkey»
+DETAIL:  Ya existe la llave (id)=(47). in C:\xampp\htdocs\nuevo_siprodet\system\Database\Postgre\Connection.php:192
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 192)
+#1 C:\xampp\htdocs\nuevo_siprodet\system\Database\Postgre\Connection.php(192): pg_query(Object(PgSql\Connection), 'INSERT INTO "Pr...')
+#2 C:\xampp\htdocs\nuevo_siprodet\system\Database\BaseConnection.php(721): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "Pr...')
+#3 C:\xampp\htdocs\nuevo_siprodet\system\Database\BaseConnection.php(635): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "Pr...')
+#4 C:\xampp\htdocs\nuevo_siprodet\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "Pr...', Array, false)
+#5 C:\xampp\htdocs\nuevo_siprodet\system\Model.php(382): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\nuevo_siprodet\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\nuevo_siprodet\system\Model.php(790): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\nuevo_siprodet\app\Services\ProcuraduriasService.php(40): CodeIgniter\Model->insert(Array)
+#9 C:\xampp\htdocs\nuevo_siprodet\app\Services\ProcuraduriasService.php(15): App\Services\ProcuraduriasService->AgregarProcuraduria(Object(CodeIgniter\HTTP\IncomingRequest))
+#10 C:\xampp\htdocs\nuevo_siprodet\app\Controllers\ProcuraduriasController.php(46): App\Services\ProcuraduriasService->AgregarActualizarProcuradurias(Object(CodeIgniter\HTTP\IncomingRequest))
+#11 C:\xampp\htdocs\nuevo_siprodet\system\CodeIgniter.php(933): App\Controllers\ProcuraduriasController->AgregarActualizarProcuradurias()
+#12 C:\xampp\htdocs\nuevo_siprodet\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProcuraduriasController))
+#13 C:\xampp\htdocs\nuevo_siprodet\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\nuevo_siprodet\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\nuevo_siprodet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#16 C:\xampp\htdocs\nuevo_siprodet\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#17 {main}
+CRITICAL - 2024-05-15 23:12:19 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  llave duplicada viola restricción de unicidad «ProcuraduriasNum_pkey»
+DETAIL:  Ya existe la llave (id)=(47).
+[Method: POST, Route: Procuradurias/RegistrarActualizarProcuraduria]
+in SYSTEMPATH\Database\BaseConnection.php on line 675.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ProcuraduriasNum" ("nombre") VALUES (:nombre:)', [...], false)
+ 2 SYSTEMPATH\Model.php(382): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(790): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Services\ProcuraduriasService.php(40): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Services\ProcuraduriasService.php(15): App\Services\ProcuraduriasService->AgregarProcuraduria(Object(CodeIgniter\HTTP\IncomingRequest))
+ 7 APPPATH\Controllers\ProcuraduriasController.php(46): App\Services\ProcuraduriasService->AgregarActualizarProcuradurias(Object(CodeIgniter\HTTP\IncomingRequest))
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProcuraduriasController->AgregarActualizarProcuradurias()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProcuraduriasController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 23:12:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  llave duplicada viola restricción de unicidad «ProcuraduriasNum_pkey»
+DETAIL:  Ya existe la llave (id)=(47).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 197.
+ 1 SYSTEMPATH\Database\BaseConnection.php(721): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ProcuraduriasNum" ("nombre") VALUES (\'AZCAPOTZALCO (JFCA)\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(635): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ProcuraduriasNum" ("nombre") VALUES (\'AZCAPOTZALCO (JFCA)\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ProcuraduriasNum" ("nombre") VALUES (:nombre:)', [...], false)
+ 4 SYSTEMPATH\Model.php(382): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(790): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Services\ProcuraduriasService.php(40): CodeIgniter\Model->insert([...])
+ 8 APPPATH\Services\ProcuraduriasService.php(15): App\Services\ProcuraduriasService->AgregarProcuraduria(Object(CodeIgniter\HTTP\IncomingRequest))
+ 9 APPPATH\Controllers\ProcuraduriasController.php(46): App\Services\ProcuraduriasService->AgregarActualizarProcuradurias(Object(CodeIgniter\HTTP\IncomingRequest))
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProcuraduriasController->AgregarActualizarProcuradurias()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProcuraduriasController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 23:12:19 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  llave duplicada viola restricción de unicidad «ProcuraduriasNum_pkey»
+DETAIL:  Ya existe la llave (id)=(47).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 192.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  llave duplicada viola restricción de unicidad «ProcuraduriasNum_pkey»
+DETAIL:  Ya existe la llave (id)=(47).', 'C:\\xampp\\htdocs\\nuevo_siprodet\\system\\Database\\Postgre\\Connection.php', 192)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(192): pg_query(Object(PgSql\Connection), 'INSERT INTO "ProcuraduriasNum" ("nombre") VALUES (\'AZCAPOTZALCO (JFCA)\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(721): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "ProcuraduriasNum" ("nombre") VALUES (\'AZCAPOTZALCO (JFCA)\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(635): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "ProcuraduriasNum" ("nombre") VALUES (\'AZCAPOTZALCO (JFCA)\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO "ProcuraduriasNum" ("nombre") VALUES (:nombre:)', [...], false)
+ 6 SYSTEMPATH\Model.php(382): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(790): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Services\ProcuraduriasService.php(40): CodeIgniter\Model->insert([...])
+10 APPPATH\Services\ProcuraduriasService.php(15): App\Services\ProcuraduriasService->AgregarProcuraduria(Object(CodeIgniter\HTTP\IncomingRequest))
+11 APPPATH\Controllers\ProcuraduriasController.php(46): App\Services\ProcuraduriasService->AgregarActualizarProcuradurias(Object(CodeIgniter\HTTP\IncomingRequest))
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProcuraduriasController->AgregarActualizarProcuradurias()
+13 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProcuraduriasController))
+14 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-15 23:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 23:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 23:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 23:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 23:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 23:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 23:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 23:40:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 23:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 23:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
